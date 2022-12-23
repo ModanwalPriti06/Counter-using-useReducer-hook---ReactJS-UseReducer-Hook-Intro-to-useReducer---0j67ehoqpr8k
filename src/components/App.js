@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/App.css';
 
 
-const initialTaskState = {
+let initialTaskState = {
     count: 0   
   };
 function reducer(state,action){
