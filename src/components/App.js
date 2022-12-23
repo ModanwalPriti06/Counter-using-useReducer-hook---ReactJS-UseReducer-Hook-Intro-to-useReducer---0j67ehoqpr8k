@@ -12,9 +12,8 @@ function reducer(state,action){
         case 'delete':
             return { count: state.count - 1 };
         case 'deleteAll':
-            return { count: state.count = 0 };
-        default:
-            return state;
+            return { count:0 };
+      
     }
 
 }
